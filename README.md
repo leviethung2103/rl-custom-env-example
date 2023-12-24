@@ -1,5 +1,11 @@
 This repository is no longer maintained, as Gym is not longer maintained and all future maintenance of it will occur in the replacing [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) library. You can contribute Gymnasium examples to the Gymnasium repository and docs directly if you would like to. If you'd like to learn more about the transition from Gym to Gymnasium, you can read more about it [here](https://farama.org/Announcing-The-Farama-Foundation).
 
+Tutorial: https://www.gymlibrary.dev/content/environment_creation/
+
+![image](https://user-images.githubusercontent.com/15806078/160155148-253a05ae-25c1-4fcf-9a72-f72362a64225.gif)
+# add the image markdown
+
+
 # Gym Examples
 Some simple examples of Gym environments and wrappers.
 For some explanations of these examples, see the [Gym documentation](https://gymnasium.farama.org).
@@ -12,7 +18,7 @@ This repository hosts the examples that are shown [on the environment creation d
 This repository hosts the examples that are shown [on wrapper documentation](https://gymnasium.farama.org/api/wrappers/).
 - `ClipReward`: A `RewardWrapper` that clips immediate rewards to a valid range
 - `DiscreteActions`: An `ActionWrapper` that restricts the action space to a finite subset
-- `RelativePosition`: An `ObservationWrapper` that computes the relative position between an agent and a target
+- `RelativePosition`: Awn `ObservationWrapper` that computes the relative position between an agent and a target
 - `ReacherRewardWrapper`: Allow us to weight the reward terms for the reacher environment
 
 ### Contributing
